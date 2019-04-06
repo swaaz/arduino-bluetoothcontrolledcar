@@ -6,18 +6,18 @@ char command;
 void setup() {
 Serial.begin(9600);
 //pins for motor controller 
-pinMode(12, OUTPUT);
-pinMode(11, OUTPUT);
-pinMode(10, OUTPUT);
-pinMode(9, OUTPUT);
-pinMode(8, OUTPUT); 
-pinMode(7, OUTPUT);
-pinMode(6, OUTPUT);
-pinMode(5, OUTPUT);
-pinMode(A0, OUTPUT); 
-pinMode(A1, OUTPUT);
-pinMode(A2, OUTPUT);
-pinMode(A3, OUTPUT);
+pinMode(12, OUTPUT); //motordrive-2-leftside-behind-reverse
+pinMode(11, OUTPUT); //motordrive-2-leftside-behind-forward
+pinMode(10, OUTPUT); //motordrive-2-leftside-front-reverse
+pinMode(9, OUTPUT); //motordrive-2-leftside-front-forward
+pinMode(8, OUTPUT); //motordrive-1-rightside-front-reverse
+pinMode(7, OUTPUT); //motordrive-1-rightside-front-forward
+pinMode(6, OUTPUT); //motordrive-1-rightside-behind-reverse
+pinMode(5, OUTPUT); //motordrive-1-rightside-behind-forward
+pinMode(A0, OUTPUT); //analogpin-motordrive-1-right
+pinMode(A1, OUTPUT); //analogpin-motordrive-1-left
+pinMode(A2, OUTPUT); //analogpin-motordrive-1-right
+pinMode(A3, OUTPUT); //analogpin-motordrive-1-left
 
 
 }
