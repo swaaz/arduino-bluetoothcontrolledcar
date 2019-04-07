@@ -8,6 +8,8 @@ This is the arduino code to control car via bluetooth.
 - arduino uno
 - bluetooth module
 - 4 motor clamps
+- wires
+- chassis
 
 To download app to control bot via bluetooth-[click here](https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller)
  
