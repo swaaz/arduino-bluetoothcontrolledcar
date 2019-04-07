@@ -1,4 +1,4 @@
-# arduino-bluetoothcontrolledcar
+# Arduino-bluetoothcontrolledcar
 ## This is the arduino code for Bluetooth controlled car
 This is the arduino code to control car via bluetooth.
 ## components used
